@@ -13,6 +13,6 @@ int main() {
   int first_num{get_value_from_user()};
   int second_number{get_value_from_user()};
   std::cout << first_num << " + " << second_number << ": "
-            << first_num + second_number << "\n";
+            << (first_num + second_number) << "\n";
   return 0;
 }
